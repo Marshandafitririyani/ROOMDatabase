@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1066639354045",
+    "project_id": "room-database-a0bd3",
+    "storage_bucket": "room-database-a0bd3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066639354045:android:de79ec0ab855baccb32fd4",
+        "android_client_info": {
+          "package_name": "com.yelow.roomdatabase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1066639354045-glos4f6p81qib6m4ins82avo39peule5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yelow.roomdatabase",
+            "certificate_hash": "1f1c1c056c1bf3d36fb490279216880a534b8e1f"
+          }
+        },
+        {
+          "client_id": "1066639354045-30p6stc204c0ed75olu9gjp9crd86kks.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo_OehiE6KGr179Ht7HDaSUILiLQmvTls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1066639354045-30p6stc204c0ed75olu9gjp9crd86kks.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
