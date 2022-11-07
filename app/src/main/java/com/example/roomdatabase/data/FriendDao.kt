@@ -4,7 +4,6 @@ import androidx.lifecycle.LiveData
 import androidx.room.*
 import androidx.room.Dao
 import com.crocodic.core.data.CoreDao
-
 import androidx.room.Query
 
 
@@ -24,8 +23,8 @@ import androidx.room.Query
 //}
 
 @Dao
-abstract class FriendDao :
-//    @Query("SELECT * FROM Friend")
-//    abstract fun getAll():LiveData<List<Friend>>
+abstract class Friend2Dao : CoreDao<Friend>{
+    @Query("SELECT * FROM Friend")
+    abstract fun getAll():LiveData<List<Friend>>
 }
 
