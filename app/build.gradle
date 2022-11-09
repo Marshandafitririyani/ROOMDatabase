@@ -64,7 +64,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
     //crocodic core
-    implementation 'com.github.crocodic-studio:AndroidCoreProject:3.0.0-beta8'
+    implementation 'com.github.crocodic-studio:AndroidCoreProject:4.0.6-beta8'
 
     // Import the Firebase BoM
     implementation platform('com.google.firebase:firebase-bom:31.0.2')
