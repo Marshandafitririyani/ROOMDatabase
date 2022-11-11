@@ -7,8 +7,7 @@ import com.crocodic.core.data.CoreDao
 import androidx.room.Query
 
 
-//@Dao
-//interface FriendDao {
+//@Dao//interface FriendDao {
    // @Insert
    // fun insert(friend: Friend)
 
