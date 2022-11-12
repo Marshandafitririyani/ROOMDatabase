@@ -22,7 +22,7 @@ import androidx.room.Query
 //}
 
 @Dao
-abstract class Friend2Dao : CoreDao<Friend>{
+abstract class FriendDao : CoreDao<Friend>{
     @Query("SELECT * FROM Friend")
     abstract fun getAll():LiveData<List<Friend>>
 }
