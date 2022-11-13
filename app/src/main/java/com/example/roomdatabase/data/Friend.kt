@@ -16,7 +16,7 @@ data class Friend(
     var name: String,
     var school: String,
     var hobby: String,
-    var phone: String
+    var phoneNumber: String
 ){
     @PrimaryKey(autoGenerate = true)
     var id: Int = 0

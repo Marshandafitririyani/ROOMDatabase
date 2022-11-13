@@ -33,7 +33,7 @@ abstract class MyDatabase : RoomDatabase() {
                     "data_teman"
                 )
                     .addMigrations(MIGRATION_1_2)
-                    .fallbackToDestructiveMigration()
+                    //.fallbackToDestructiveMigration()
                     .build()
                 INSTANCE = instance
                 return instance
